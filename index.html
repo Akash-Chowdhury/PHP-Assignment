@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form in HTML</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    #parent {
+      /* border: 1px solid gray; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 9em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="container" id="parent">
+    <form action="make.php" class="container form-group my-5 d-flex flex-column justify-content-center">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <h3 class="my-4">Input a Number</h3>
+      </div>
+      <input type="number" placeholder="Enter number of inputs" name="entry" class="form-control"
+        style="background-color: rgb(206, 205, 205); border: 1px solid black;">
+      <div class=" d-flex flex-column justify-content-center align-items-center"><input type="submit" name="submit"
+          class="btn btn-outline-success my-3 d-flex flex-column justify-content-center align-items-center"
+          style="width: 150px;"></div>
+    </form>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</html>
